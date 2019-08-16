@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.upgrade'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.testng', name: 'testng', version: '6.8'
+    testCompile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.6.2'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '1.0.0'
+}
+
+
